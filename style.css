@@ -26,24 +26,29 @@ a:active  { color: red;  }
 p { /* changes the size and possiblly font style of all paragraphs */
   font-size: 15px;
   font-family: 'Times New Roman', Times, serif;
+  height: auto;
 }
 
 h1{ /* changes the size of my h1 */
   font-size: 40px;
   font-family: candara, verdana;
+  height: auto;
 }
 
 h2{ /* changes the size of all h2*/
-  font-size: 30px
+  font-size: 30px;
+  height: auto;
 }
 
 h3{ /* changes the size of all h3 */
   font-size: 25px;
   font-family: impact;
+  height: auto;
 }
 
 h4{ /* changes the size  of all h4 */
   font-size: 18px;
+  height: auto;
 }
 
 header{ /* addes a back ground color to my header so it looks nicer */
