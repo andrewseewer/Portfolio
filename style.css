@@ -53,7 +53,15 @@ h4{ /* changes the size  of all h4 */
 
 header{ /* addes a back ground color to my header so it looks nicer */
   background-color: darkgrey;
+  margin-bottom: 30px;
 }
+
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 ul{ /* formats my unordered lists to display nicly lined up */
   display: inline-block; 
 	text-align: left; 
@@ -65,11 +73,17 @@ ol{ /* formats my ordered lists to display nicly lined up */
   display: inline-block; 
 	text-align: left; 
   list-style-position: initial;
+  font-size: 25px;
 }
 
 li { /* lines up my list items with the ol and ul for better formating */
   display: list-item;
   text-align: -webkit-match-parent;
+  list-style-position: inside;
+}
+
+ul li, ol li { /*adds space inbetween all list items of all types */
+     line-height:200%; 
 }
 
 main{ /* addes a margin at the top and bottom of my main for better spacing between the header and footer */
@@ -80,4 +94,61 @@ main{ /* addes a margin at the top and bottom of my main for better spacing betw
 footer{  /* adds a nice box to the end of my website with the padding to fill in the blank spaces */
   background-color:darkgray;
   padding: 50px;
+}
+
+section.bg-callout {  /* for assigning any section a background color */
+   padding: 10px 0;
+   background-color: lightgray;
+}
+
+
+
+.group { /* for flex layout/responsive layout mobile first*/
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.item {
+  flex: 1;
+  margin: 10px;
+}
+
+.item-double {
+  flex: 2;
+  margin: 10px;
+}
+
+/* groups & items (desktop) */
+@media all and (min-width: 800px) {
+
+  section, h1 {
+    padding: 0 10%;
+  }
+
+  .group {
+    flex-direction: row;
+  }
+
+}
+
+/* simple contact form added */
+form { 
+  padding-right: 10px;
+}
+
+form label {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  display: block;
+}
+
+form input, 
+form textarea {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+form textarea {
+  height: 160px;
 }
