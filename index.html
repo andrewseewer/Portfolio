@@ -21,7 +21,7 @@
       <nav> <!-- simple navigation box might remove -->
     <a href="#about-me" class= "button button-default"> About</a>
     <a href="#contact-me" class="button button-default"> Contact</a>
-    <a href="#portfolio" class="button button-default"> Portfolio</a>
+    <a href="#portfolio" class="button button-default"> Portfilo</a>
       <!-- simple use of link classes -->
       </nav>
       </div>
@@ -30,10 +30,9 @@
   <main>
     <div class= "group">
       <div class="item">
-    <img src="https://user-images.githubusercontent.com/72104558/94722779-9c32d500-030c-11eb-9dc8-2ce5198f9676.jpg" width="150" alt="A picture of Andrew"> <!-- Get a more professional picture later also will show the picture when i get a better one if it's not needed to be showing at the moment -->
-    <h3> Meet Andrew  </h3> <!-- intro section Change this later -->
+    <img src="bad-picture.jpg" width="200" alt="A picture of Andrew"> <!-- Get a more professional picture later -->
+    <h2> Meet Andrew  </h2> <!-- intro section Change this later -->
     <h4> This is my portfolio website feel free to take a look around.</h4>
-    <h3> </h3>
      <!-- i don't know what to put up there ^^ -->
      
     <ul> <!-- make more professional sounding also this is a unorded list-->
@@ -50,9 +49,9 @@
       <section class="bg-callout">
         <div class= "group">
           <div class="item">
-      <h3> About Me </h3>
+      <h2> About Me </h2>
         <p> 
-      After graduating high school I spent some time in college trying to figure out the best career path for myself at the time. During this time I was going to school for tech support and switched over to a computer science program. I enjoyed the field but didn't like having to take four years of classes learning all the different subjects that are not related to my field of study. This is when I started looking at all the different coding bootcamps recommended to me by a family friend that was the leader of a programming team for a company in Dallas. So I started my Thinkful courses online learning the basics of JavaScript, HTML, and CSS. I really enjoy the problem solving aspect of code and the moment when you finally get something to work the way you invisioned in your head. My general interests are also linked with coding as I enjoy playing games and I want to be able to make different types of apps (for fun) but mostly for myself or a smaller community to make use of. This also includes wanting to work on these projects with other developers inside or outside of those communitites. 
+      After graduating high school I spent some time in college trying to figure out the best career path for myself at the time. During this time I was going to school for tech support and switched over to a computer science program. I enjoyed the field but didn't like having to take four years of classes learning all the different subjects that are not related to my field of study. This is when I started looking at all the different coding bootcamps recommended to me by a family friend who was the leader of a programming team for a company in Dallas. So I started my Thinkful courses online learning the basics of JavaScript, HTML, and CSS. After learning more about these languanges I would like to provide software coding and programming assistance to my clients since I really enjoy creating new things with code. I really enjoy the problem solving aspect of code and the moment when you finally get something to work the way you invisioned in your head. My general interests are also linked with coding as I enjoy playing games and I want to be able to make different types of apps (for fun) but mostly for myself or a smaller community to make use of. This also includes wanting to work on these projects with other developers inside or outside of those communitites. 
         </p> <!-- Can rewrite this later it's a rough draft -->
           </div>
         </div>
@@ -64,11 +63,21 @@
     <article id="portfolio"> <!-- the portfolio section of the website show off work the ID is for the nav box later-->
       <div class= "group">
         <div class="item">
-          <h3> Andrew's Previous Project's </h3>
-          <h4> Project Title </h4>
-            <p> <!-- brief descripion of preivous project worked on make it sound professional -->
-            </p>
+          <h3> Andrew's Previous Projects </h3>
+          <h4> Placeholder </h4>
+            <p> Explain what the app does, who it's made for, and why I build it </p>
+            <p> Skills used in this project: Javascript, node, CSS, HTML</p>
             <a href=""> code samples </a> <!-- link to the work descriped above or listed in the portfolio section -->   
+          <hr>
+          <h4> Placeholder </h4>
+            <p> Explain what the app does, who it's made for, and why I build it </p>
+            <p> Skills used in this project: Javascript, node, CSS, HTML</p>
+            <a href=""> code samples </a>
+          <hr>
+            <h4> Placeholder </h4>
+            <p> Explain what the app does, who it's made for, and why I build it </p>
+            <p> Skills used in this project: Javascript, node, CSS, HTML</p>
+            <a href=""> code samples </a>
         </div>
       </div>
     </article>
@@ -76,12 +85,12 @@
     <hr>
 
     <!-- 
-    <article id="services"> <!-- services i can provide to companies / people may remove later if not needed 
+    <article id="services">  services i can provide to companies / people may remove later if not needed 
       <div class="group">
         <div class="item">
           <h3> Andrew's Services </h3>
           <p> 
-          <!-- This is your opprotunity to list out all of the services that you can provide a client/employer. The key is being able to communicate with others what you can provide that will be useful.Just listing programming languages and software names doesn't really give others a true sense of what you can do with them. And don't worry if this is a little daunting because you are just starting out and you don't really know. As you learn new skills, just keep in mind how you'll talk to others about what you know as well as how you'll present this in a portfolio. For now, you could always share a wish list of what you are working towards. 
+           This is your opprotunity to list out all of the services that you can provide a client/employer. The key is being able to communicate with others what you can provide that will be useful.Just listing programming languages and software names doesn't really give others a true sense of what you can do with them. And don't worry if this is a little daunting because you are just starting out and you don't really know. As you learn new skills, just keep in mind how you'll talk to others about what you know as well as how you'll present this in a portfolio. For now, you could always share a wish list of what you are working towards. 
           </p>
         </div>
       </div>
@@ -93,8 +102,8 @@
     <article id="contact-me"> <!-- contact me section -->
       <div class= "group">
         <div class="item">
-      <h3> Contact Me </h3>
-     	<form action="#" method="POST"> <!-- simple contact form -->
+      <h2> Contact Me </h2>
+     <form action="https://formspree.io/f/moqpjwvl" method="POST">
           <label for="user-name">Name:</label>
           <input id="user-name" type="text" name="name">
 
@@ -103,16 +112,15 @@
 
           <label for="user-message">Message:</label>
           <textarea id="user-message" name="message"></textarea>
-          <button type="button" value="Submit" style="float: left;">Submit</button> 
-          <!-- adds submit button aligned left -->
-        </form> 
+          <button type="submit" style="float: left;">Submit</button>
+        </form>
         </div>
     <div class="item">
     <ol>
       <li> <a target="_blank" href="https://github.com/andrewseewer"> GitHub</a>
       <li> <a target="_blank" href="https://www.linkedin.com/in/andrew-seewer-7459901b4/"> LinkedIn</a>
        <!--all my different contact links -->
-      <li> <a href="mailto:andrewseewer@gmail.com"> andrewseewer@gmail.com </a> 
+      <li> <a href="mailto:andrewseewer@gmail.com"> Email </a> 
       <!-- opens default email program to email me -->
     </ol>
         </div>
