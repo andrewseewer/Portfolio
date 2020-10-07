@@ -1,2 +1,2 @@
-# andwerseewer.github.io
+# andwerseewer
 for github.io
